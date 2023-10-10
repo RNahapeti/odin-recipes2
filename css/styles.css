@@ -1,1 +1,57 @@
 /* Styles Sheet */
+
+/* Ensure all padding and margins are based off of Style Sheets and not browser defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    margin: 8px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 2em;
+    color: #5D5C61;
+    margin-block-start: .5em;
+    margin-block-end: .5em;
+}
+
+h2 {
+    font-size: 1.7em;
+    color: #557a95;
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #B1A296;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: .8em;
+    color: #7395AE;
+}
+
+p {
+    color: #16253F;
+}
+
+ul {
+    padding-inline-start: 2em;
+}
+
+li {
+    margin: .25em 0;
+}
